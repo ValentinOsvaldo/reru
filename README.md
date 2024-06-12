@@ -1,3 +1,9 @@
+# NOTE
+
+> ⚠️ Important
+
+This repository is not mine, credits to [ShizukuIchi](https://github.com/ShizukuIchi/winXP)
+
 # WinXP
 
 🏁 Web based Windows XP desktop recreation.
