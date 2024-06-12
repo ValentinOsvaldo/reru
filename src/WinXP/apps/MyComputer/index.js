@@ -207,7 +207,7 @@ function MyComputer({ onClose }) {
                 </div>
               </div>
             </div>
-            <div className="com__content__left__card">
+            {/* <div className="com__content__left__card">
               <div className="com__content__left__card__header">
                 <div className="com__content__left__card__header__text">
                   Details
@@ -261,7 +261,7 @@ function MyComputer({ onClose }) {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="com__content__right">
             <div className="com__content__right__card">
@@ -333,7 +333,7 @@ function MyComputer({ onClose }) {
                 </div>
               </div>
             </div>
-            <div className="com__content__right__card com__content__right__card--me">
+            {/* <div className="com__content__right__card com__content__right__card--me">
               <div className="com__content__right__card__header">
                 About Me :)
               </div>
@@ -367,7 +367,7 @@ function MyComputer({ onClose }) {
                   </div>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

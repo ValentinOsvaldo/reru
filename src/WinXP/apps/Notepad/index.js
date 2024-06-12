@@ -4,8 +4,31 @@ import styled from 'styled-components';
 import { WindowDropDowns } from 'components';
 import dropDownData from './dropDownData';
 
+const letter = `
+  Hola Lluvia \n
+  Te hice este detalle para que recuerdes que te quiero mucho, y que no por ser solo amigos
+  No significa que no pueda hacerte un detalle, tú me dijiste que no es necesario nada mas
+  que mi compañía para que te sientas querida, y yo te quiero hacer sentir querida porque no sé
+  sí tu ya salgas con alguien mas o alguien mas te haga este tipo de detalles, de igual manera
+  no impide que te pueda escribir esto.\n
+  Quería agradecerte por este año que hemos estado juntos, aunque no ha sido perfecto me siento mejor
+  de conservar tu aprecio. Realmente llegaste de nuevo en un momento en el que no sabía que te necesitaba,
+  por eso y mas te lo agradezco.\n
+  Perdóname por los malos momentos que te he hecho pasar, sé que no es fácil lidiar conmigo y en especial
+  que no es obligatorio, pero sigues aquí, por la razón que sea pero te lo agradezco, espero me entiendas,
+  aunque las cosas no son precisamente fáciles a veces, créeme que te quiero mucho por ser quien eres,
+  tan única y tan especial, y aun sin eso, te sigo queriendo porque te conozco y sé quien eres, eso
+  es realmente un privilegio.\n
+  Espero podamos seguir compartiendo tiempo, no convivimos mucho en persona pero ojala se me de la oportunidad.
+  Créeme que no me importa cuales sean las circunstancias, te voy a tratar de apoyar siempre que pueda, nunca dudes
+  en que te quiero escuchar y ojala te pueda echar la mano.\n
+  Solamente eso, te amo en el sentido de como persona, pero eso ya lo sabes de sobra, tal vez, pero igual
+  sabes que me gusta recalcar las cosas, porque se trata de brindar la seguridad.\n
+  Con cariño, Valen ❤️
+`;
+
 export default function Notepad({ onClose }) {
-  const [docText, setDocText] = useState('');
+  const [docText, setDocText] = useState(letter);
   const [wordWrap, setWordWrap] = useState(false);
 
   function onClickOptionItem(item) {
